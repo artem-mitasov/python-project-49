@@ -23,7 +23,8 @@ cd python-project-49
 ## Использование
 
 <!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
-
+### Brain Even demo
+[![asciicast](https://asciinema.org/a/yr3qX8uXLNXvOnDR.svg)](https://asciinema.org/a/yr3qX8uXLNXvOnDR)
 ---
 
 <details>
