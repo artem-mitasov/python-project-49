@@ -12,3 +12,10 @@ htmlcov/
 
 #macOs staff
 .DS_Store
+
+# VS code
+.vscode/
+
+# Build
+dist/
+
