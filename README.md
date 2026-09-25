@@ -25,6 +25,9 @@ cd python-project-49
 <!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
 ### Brain Even demo
 [![asciicast](https://asciinema.org/a/yr3qX8uXLNXvOnDR.svg)](https://asciinema.org/a/yr3qX8uXLNXvOnDR)
+
+### Brain Calc demo
+[![asciicast](https://asciinema.org/a/lZq5eTJomPHSzgxh.svg)](https://asciinema.org/a/lZq5eTJomPHSzgxh)
 ---
 
 <details>
