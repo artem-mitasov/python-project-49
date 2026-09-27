@@ -1,51 +1,100 @@
-# Игры разума (Python)
+# Brain Games
 
 [![hexlet-check](https://github.com/artem-mitasov/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/artem-mitasov/python-project-49/actions)
 
-Погрузитесь в экосистему Python и научитесь настраивать рабочее окружение. Подружитесь с менеджером зависимостей и линтером. Поймете, чем git отличается от GitHub, поработаете с внешними репозиториями. Получите опыт построения архитектуры полноценного приложения и написания чистого кода.
+Brain Games is a set of five command-line games built with Python.
 
-Учебный проект Хекслета: https://ru.hexlet.io/programs/python
-Как это должно работать: https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7
+In each game, the player has to give three correct answers in a row. A wrong answer ends the game.
 
-## Стек
+This project was created as part of the [Hexlet Python Developer course](https://ru.hexlet.io/programs/python).
 
-- Python
+## Requirements
 
-## Установка
+- Python 3.14+
+- uv
 
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
+## Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/artem-mitasov/python-project-49.git
 cd python-project-49
 ```
 
-## Использование
+Build the package:
 
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
-### Brain Even demo
+```bash
+uv build
+```
+
+Install it as a command-line tool:
+
+```bash
+uv tool install dist/*.whl
+```
+
+After installation, the games can be launched directly from the terminal without `uv run`.
+
+## Usage
+
+Available commands:
+
+```text
+brain-games
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
+```
+
+### Brain Even
+
+Determine whether a given number is even.
+
+```bash
+brain-even
+```
+
 [![asciicast](https://asciinema.org/a/yr3qX8uXLNXvOnDR.svg)](https://asciinema.org/a/yr3qX8uXLNXvOnDR)
 
-### Brain Calc demo
+### Brain Calc
+
+Calculate the result of a randomly generated arithmetic expression.
+
+```bash
+brain-calc
+```
+
 [![asciicast](https://asciinema.org/a/lZq5eTJomPHSzgxh.svg)](https://asciinema.org/a/lZq5eTJomPHSzgxh)
 
-### Brain GCD demo
+### Brain GCD
+
+Find the greatest common divisor of two numbers.
+
+```bash
+brain-gcd
+```
+
 [![asciicast](https://asciinema.org/a/X1EP7dvlAR9TIZrC.svg)](https://asciinema.org/a/X1EP7dvlAR9TIZrC)
 
-### Brain prime demo
-[![asciicast](https://asciinema.org/a/H4HicPKSB8Hj6NOt.svg)](https://asciinema.org/a/H4HicPKSB8Hj6NOt)
+### Brain Progression
 
-### Brain progression demo
+Find the missing number in an arithmetic progression.
+
+```bash
+brain-progression
+```
+
 [![asciicast](https://asciinema.org/a/iFJkKIBq4qXiIo9t.svg)](https://asciinema.org/a/iFJkKIBq4qXiIo9t)
----
 
-<details>
-<summary>Автоматические тесты Хекслета</summary>
+### Brain Prime
 
-Тесты запускаются на каждый коммит. За запуск отвечает файл `.github/workflows/hexlet-check.yml` — не удаляйте и не переименовывайте ни его, ни репозиторий.
+Determine whether a given number is prime.
 
-</details>
+```bash
+brain-prime
+```
 
-## О Хекслете
-
-[Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
+[![asciicast](https://asciinema.org/a/H4HicPKSB8Hj6NOt.svg)](https://asciinema.org/a/H4HicPKSB8Hj6NOt)

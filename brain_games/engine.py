@@ -2,6 +2,8 @@ import prompt
 
 from brain_games.cli import welcome_user
 
+ROUNDS_COUNT = 3
+
 
 def run_game(game):
     game_rule, game_logic = game()
@@ -11,8 +13,8 @@ def run_game(game):
     
     print(game_rule)
 
-    attempts_count = 3 
-    while attempts_count > 0:
+    rounds_left = ROUNDS_COUNT
+    while rounds_left > 0:
 
         question, correct_answer = game_logic()
         
@@ -21,7 +23,7 @@ def run_game(game):
         
         if user_answer == correct_answer:
             print("Correct!")
-            attempts_count -= 1
+            rounds_left -= 1
             continue
         else:
             print(
@@ -31,6 +33,6 @@ def run_game(game):
             print(f"Let's try again, {user_name}!")
             break
         
-    if attempts_count == 0:
+    if rounds_left == 0:
         print(f"Congratulations, {user_name}!")
 
