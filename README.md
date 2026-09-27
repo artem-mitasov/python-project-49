@@ -28,6 +28,15 @@ cd python-project-49
 
 ### Brain Calc demo
 [![asciicast](https://asciinema.org/a/lZq5eTJomPHSzgxh.svg)](https://asciinema.org/a/lZq5eTJomPHSzgxh)
+
+### Brain GCD demo
+[![asciicast](https://asciinema.org/a/X1EP7dvlAR9TIZrC.svg)](https://asciinema.org/a/X1EP7dvlAR9TIZrC)
+
+### Brain prime demo
+[![asciicast](https://asciinema.org/a/H4HicPKSB8Hj6NOt.svg)](https://asciinema.org/a/H4HicPKSB8Hj6NOt)
+
+### Brain progression demo
+[![asciicast](https://asciinema.org/a/iFJkKIBq4qXiIo9t.svg)](https://asciinema.org/a/iFJkKIBq4qXiIo9t)
 ---
 
 <details>
